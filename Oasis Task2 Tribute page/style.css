@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: black;
+    font-family: 'Mukta', sans-serif;
+}
+.navbar{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+.section{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items:center ;
+}
+.gray{
+    color:gray;
+    line-height: 38px;
+}
+.info{
+    margin-left: -200px;
+}
+.para{
+    margin-left: 6%;
+    margin-top: 10px;
+}

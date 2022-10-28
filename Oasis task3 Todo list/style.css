@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #C2DBC1;
+    font-family: 'Mukta', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    background-color: #6CC4A1;
+}
+.input{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    width: 50%;
+    margin: 0px 10px;;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7%;
+}
+footer{
+    margin-top: 36%;
+    text-align: center;
+}
+.add{
+    background-color: #4CACBC;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.addTodo{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+.all{
+    margin-top: 30px;
+    width: 50%;
+    /* background-color: white; */
+    padding: 20px;
+    border-radius: 20px;
+}
+.allTask{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+   
+}
+.task{
+   background-color: white;
+   width: 50%;
+   padding: 10px;
+   border-radius: 10px;
+   margin: 0px 15px;
+   box-shadow: 1px 1px 5px 1px rgb(195, 191, 191);
+}
+.dlt{
+    padding: 10px;
+    border: none;
+    background-color: rgb(209, 81, 81);
+    border-radius: 15px;
+    cursor: pointer;
+}
